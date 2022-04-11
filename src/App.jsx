@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import "./App.css"
 import { links } from './data'
+import "./App.css";
 
 export default function App() {
     return (
@@ -19,8 +19,8 @@ export default function App() {
             <section className="contact" id="contact">
                 <h1>contact</h1>
             </section>
-            <section className="rest" id="rest">
-                <h1>rest</h1>
+            <section className="footer" id="footer">
+                <h1>footer</h1>
             </section>
         </main>
     );
@@ -39,7 +39,9 @@ function Navbar() {
     return (
         <nav className="sticky">
             <div className="logo">
-                <h4>the nav</h4>
+                <a href="#footer">
+                <h4>Logo</h4>
+                </a>
             </div>
             <div>
                 {/* { links} */}

@@ -14,18 +14,23 @@ html{
 .about,
 .projects,
 .contact,
-.rest {
+.footer {
   min-height: 60vh;
   text-align: center;
 }
 
 .logo{
-  color:beige;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size:  20px;
   margin-right: 550px;
   font-family: Montserrat,sans-serif;
+}
+.logo a{
+  color:rgb(226, 226, 226);
+}
+.logo a:hover{
+  color:rgb(255, 255, 255);
 }
 
 nav{
@@ -34,7 +39,7 @@ nav{
   justify-content:space-evenly;
   align-items: center;
   padding:0 1rem;
-  background-color:rgb(135, 135, 135);
+  background-color:rgb(0, 0, 0);
  
 }
 
@@ -46,7 +51,7 @@ nav{
 }
 
 .nav_links a{
-  color: white;
+  color: rgb(195, 195, 195);
   letter-spacing: 1.2px;
   font-weight:bold;
   font-size:15px;
@@ -54,13 +59,14 @@ nav{
   font-family: Montserrat,sans-serif;
 }
 .nav_links a:hover{
-  color: red;
+  color:rgb(255, 255, 255);
 }
 
 .sticky{
   position: sticky;
   top:0;
 }
+
 
 .home{
   background-color: rgb(157, 80, 80);
@@ -74,7 +80,8 @@ nav{
 .contact{
   background-color: rgb(137, 8, 157)
 }
-.rest{
+.footer{
   background-color: rgb(75, 69, 188)
 }
+
 
