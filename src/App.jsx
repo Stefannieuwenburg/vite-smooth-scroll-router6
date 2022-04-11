@@ -1,4 +1,4 @@
-import * as React from "react";
+import  React from "react";
 
 import { links } from './data'
 import "./App.css";
