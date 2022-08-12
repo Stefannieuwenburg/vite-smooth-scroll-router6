@@ -1,6 +1,6 @@
 import  React from "react";
 
-import { links } from './data'
+import { links } from './data';
 import "./App.css";
 
 export default function App() {
